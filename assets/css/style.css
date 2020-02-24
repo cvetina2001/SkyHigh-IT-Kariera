@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url("../img/background.png");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: "Avenir Next" !important;
+}
+
+.container {
+  width: 100%;
+  margin: 60px 30px;
+}
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+}
+  
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1350px;
+    }
+}
+
+.my-nav {
+  background: #122967;
+  padding: 90px 0;
+  width: auto;
+  border-radius: 40px;
+  width: 65%;
+}
+
+.my-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.my-nav ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.my-nav ul li a {
+  display: block;
+}
+
+.my-nav ul li a i {
+  font-size: 45px;
+  padding: 10px 0;
+  color: #ffbb3d;
+}
+
+.name {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.name img {
+  display: inline-block;
+} 
+
+.moto {
+  margin-bottom: 360px;
+}
+
+.moto h1 {
+  text-align: center;
+  color: #122967;
+  font-size: 45px;
+  font-family: "Avenir Next" !important;
+}
+
+.buttons {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Avenir Next" !important;
+}
+
+.buttons .profile {
+  background: #fff;
+  color: #ffbb3d;
+  padding: 20px 70px;
+  border-radius: 30px;
+}
+
+.buttons .flight {
+  background: #ffbb3d;
+  color: #fff;
+  padding: 20px 70px;
+  border-radius: 30px;
+}
+
+.buttons .profile:hover,
+.buttons .flight:hover {
+  text-decoration: none;
+}
+
+.login {
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 98px 90px;
+}
+
+.login span {
+  display: block;
+  font-size: 25px;
+  color: #122967;
+  padding: 10px 21px; 
+}
+
+.login input {
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  border: 3px solid #122967;
+  border-radius: 30px;
+}
+
+.map {
+  padding: 0;
+}
+
+.map img{
+  width: 100%;
+  height: 643px;
+}
+
+.login-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: #ffbb3d;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 25px;
+  padding-top: 7px;
+  margin-top: 77px;
+}
+
+.registration {
+  color: #ffbb3d;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding-top: 5px;
+  margin-bottom: 70px;
+}
+
+.registration-white {
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px 90px;
+  text-align: center;
+}
+
+.registration-white span {
+  display: block;
+  text-align: left;
+}
+
+.registration-white input {
+  width: 100%;
+  height: 50px;
+  border: 3px solid #122967;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.registration-white span {
+  display: block;
+  font-size: 25px;
+  color: #122967;
+  padding: 10px 21px;
+}
+
+.registration-white .registration-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: #ffbb3d;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 25px;
+  padding-top: 7px;
+  margin-top: 55px;
+  transition: .2s;
+}
+
+.registration-white .registration-button:hover,
+.registration-white .login-text:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.registration-white .login-text {
+  color: #ffbb3d;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  transition: .2s;
+}
+
+.contact-us {
+  display: inline-block;
+  background: #ffbb3d;
+  color: #fff;
+  padding: 20px 200px;
+  border-radius: 20px;
+} 
+
+.contact-us span {
+  font-size: 20px;
+  display: block;
+}
+
+.logo {
+  float: right;
+}
+
+.info {
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 20px 50px;
+  line-height: 40px;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  color: #122967;
+  margin-top: 380px;
+  font-weight: bold;
+}
+
+.top-offers {
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px;
+}
+
+.top-offers h1 {
+  color: #122967;
+  font-size: 30px;
+  padding-bottom: 20px; 
+  text-align: center;
+}
+
+.top-offers img {
+  width: auto;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.top-offers span {
+  display: block;
+  color: #122967;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.top-offers a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: #ffbb3d;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 25px;
+  padding-top: 7px;
+  transition: .2s;
+}
+
+.top-offers a:hover {
+  text-decoration: none;
+}
+
+
